@@ -1,9 +1,11 @@
 <script lang="ts" setup></script>
 
 <template>
-  <h1>首頁</h1>
-  <home />
-  <box />
+  <div>
+    <h1>首頁</h1>
+    <home />
+    <box />
+  </div>
 </template>
 
 <style scoped></style>
