@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   typescript: {
-    typeCheck: true
-  }
-})
+    typeCheck: true,
+  },
+  imports: {
+    dirs: ['composables/**', 'stores'],
+  },
+});
