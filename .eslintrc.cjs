@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'no-unused-vars': 'off',
+    'no-console': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     'arrow-body-style': 'off',
     'prefer-arrow-callback': 'off',
