@@ -16,6 +16,8 @@ const { $hello } = useNuxtApp();
     <button @click="mainStore.add()">add</button>
     <home />
     <box />
+
+    <nuxt-link to="/user">to user</nuxt-link>
   </div>
 </template>
 
