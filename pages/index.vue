@@ -2,6 +2,8 @@
 // const { count, add } = useAddCount();
 const mainStore = useMainStore();
 const { $hello } = useNuxtApp();
+
+const date = ref(new Date());
 </script>
 
 <template>
@@ -12,12 +14,17 @@ const { $hello } = useNuxtApp();
       <h3>{{ $hello('mandy') }}</h3>
     </client-only>
     <h4 v-date-format="1692783692777"></h4>
-    <h4 v-date-format2="1692783692777"></h4>
+
     <button @click="mainStore.add()">add</button>
     <home />
     <box />
 
-    <nuxt-link to="/user">to user</nuxt-link>
+    <p>選擇日期：<span v-date-format2="date"></span></p>
+    <VDatePicker v-model="date" mode="date" />
+
+    <div>
+      <nuxt-link to="/user">to user</nuxt-link>
+    </div>
   </div>
 </template>
 
