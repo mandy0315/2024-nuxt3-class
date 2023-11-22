@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import boxButton from '@/components/box/button.vue';
+import home from '@/components/home.vue';
 </script>
 
 <template>
   <div>
-    <box-button />
+    <home />
+    <box />
   </div>
 </template>

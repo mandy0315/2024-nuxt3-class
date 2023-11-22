@@ -4,6 +4,14 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
+  components: {
+    dirs: [
+      {
+        path: '~/components/global',
+        global: true,
+      },
+    ],
+  },
   imports: {
     dirs: ['composables/**', 'stores'],
   },
