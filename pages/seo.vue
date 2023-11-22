@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-  title: '關於我',
+  title: 'seo',
 });
 </script>
 
