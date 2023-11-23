@@ -1,20 +1,8 @@
-<script lang="ts" setup>
-const { $hello } = useNuxtApp();
-
-const date = ref(new Date());
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <div>
     <h1>首頁</h1>
-    <client-only>
-      <h3>{{ $hello('mandy') }}</h3>
-    </client-only>
-    <h4 v-date-format="1692783692777"></h4>
-
-    <p>選擇日期：<span v-date-format2="date"></span></p>
-    <VDatePicker v-model="date" mode="date" />
-
     <div>
       <nuxt-link to="/user">to user</nuxt-link>
     </div>
