@@ -4,9 +4,7 @@
   <div>
     <h1>首頁</h1>
     <div>
-      <nuxt-link to="/user">to user</nuxt-link>
+      <nuxt-link to="/middleware">middleware</nuxt-link>
     </div>
   </div>
 </template>
-
-<style scoped></style>

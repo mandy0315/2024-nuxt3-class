@@ -1,3 +1,3 @@
 export default defineNuxtRouteMiddleware((to, from) => {
-  console.log('check.global middleware');
+  console.log('全域 middleware');
 });
