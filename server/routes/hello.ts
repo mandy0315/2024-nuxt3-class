@@ -1,6 +1,7 @@
 export default defineEventHandler(event => {
-  return {
-    name: 'cat',
-    age: 8,
+  const data = {
+    name: 'mandy',
+    age: 18,
   };
+  return data;
 });
