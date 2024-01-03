@@ -8,9 +8,8 @@ const router = useRouter(); // useRouter 提供許多函式讓你操作網址像
 <template>
   <div>
     <h1>Router</h1>
-    <!-- target="_block" 另開一頁 -->
-    <NuxtLink to="/about" class="link"> about (另開)</NuxtLink>
-    <NuxtLink to="https://thecodingpro.com/courses/nuxt3" target="_block"> Nuxt 3 高效入門全攻略（外部連結） </NuxtLink>
+    <NuxtLink to="/about" class="link"> about </NuxtLink>
+    <NuxtLink to="https://thecodingpro.com/courses/nuxt3" target="_blank" external> Nuxt 3 高效入門全攻略 </NuxtLink>
 
     <!-- 嵌套式 Router -->
     <h2>嵌套式 Router</h2>
